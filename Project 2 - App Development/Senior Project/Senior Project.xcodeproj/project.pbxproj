@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279D1288229F042800AE4A9E /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279D1286229F042700AE4A9E /* incorrect.mp3 */; };
+		279D1289229F042800AE4A9E /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279D1287229F042800AE4A9E /* correct.mp3 */; };
+		279D128C22A07F9400AE4A9E /* Beginning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279D128B22A07F9400AE4A9E /* Beginning.mp3 */; };
+		279D128E22A0928900AE4A9E /* Ending.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 279D128D22A0928900AE4A9E /* Ending.mp3 */; };
+		27FD584B229DC8170076F536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD584A229DC8160076F536 /* AppDelegate.swift */; };
+		27FD584D229DC8170076F536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD584C229DC8170076F536 /* ViewController.swift */; };
+		27FD5850229DC8170076F536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FD584E229DC8170076F536 /* Main.storyboard */; };
+		27FD5852229DC8180076F536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FD5851229DC8180076F536 /* Assets.xcassets */; };
+		27FD5855229DC8180076F536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FD5853229DC8180076F536 /* LaunchScreen.storyboard */; };
+		27FD585D229DD9AD0076F536 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD585C229DD9AD0076F536 /* TimerViewController.swift */; };
+		27FD585F229DDD200076F536 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FD585E229DDD200076F536 /* Timer.swift */; };
+		27FD5864229DE33B0076F536 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FD5863229DE33B0076F536 /* AVFoundation.framework */; };
+		27FD5866229DE3710076F536 /* Illenium - Beautiful Creatures (feat. MAX).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27FD5865229DE3710076F536 /* Illenium - Beautiful Creatures (feat. MAX).mp3 */; };
+		27FD5868229DE4150076F536 /* Creatures.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27FD5867229DE4150076F536 /* Creatures.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		279D1286229F042700AE4A9E /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = "<group>"; };
+		279D1287229F042800AE4A9E /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		279D128B22A07F9400AE4A9E /* Beginning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beginning.mp3; sourceTree = "<group>"; };
+		279D128D22A0928900AE4A9E /* Ending.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ending.mp3; sourceTree = "<group>"; };
+		27FD5847229DC8160076F536 /* Senior Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Senior Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FD584A229DC8160076F536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27FD584C229DC8170076F536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27FD584F229DC8170076F536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27FD5851229DC8180076F536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27FD5854229DC8180076F536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27FD5856229DC8180076F536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FD585C229DD9AD0076F536 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		27FD585E229DDD200076F536 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		27FD5863229DE33B0076F536 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27FD5865229DE3710076F536 /* Illenium - Beautiful Creatures (feat. MAX).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Illenium - Beautiful Creatures (feat. MAX).mp3"; sourceTree = "<group>"; };
+		27FD5867229DE4150076F536 /* Creatures.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Creatures.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FD5844229DC8160076F536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FD5864229DE33B0076F536 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FD583E229DC8160076F536 = {
+			isa = PBXGroup;
+			children = (
+				27FD5849229DC8160076F536 /* Senior Project */,
+				27FD5848229DC8160076F536 /* Products */,
+				27FD5862229DE33B0076F536 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27FD5848229DC8160076F536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FD5847229DC8160076F536 /* Senior Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FD5849229DC8160076F536 /* Senior Project */ = {
+			isa = PBXGroup;
+			children = (
+				27FD584A229DC8160076F536 /* AppDelegate.swift */,
+				27FD584C229DC8170076F536 /* ViewController.swift */,
+				27FD584E229DC8170076F536 /* Main.storyboard */,
+				27FD585C229DD9AD0076F536 /* TimerViewController.swift */,
+				27FD585E229DDD200076F536 /* Timer.swift */,
+				27FD5851229DC8180076F536 /* Assets.xcassets */,
+				27FD5853229DC8180076F536 /* LaunchScreen.storyboard */,
+				27FD5856229DC8180076F536 /* Info.plist */,
+				27FD5865229DE3710076F536 /* Illenium - Beautiful Creatures (feat. MAX).mp3 */,
+				27FD5867229DE4150076F536 /* Creatures.mp3 */,
+				279D1287229F042800AE4A9E /* correct.mp3 */,
+				279D1286229F042700AE4A9E /* incorrect.mp3 */,
+				279D128B22A07F9400AE4A9E /* Beginning.mp3 */,
+				279D128D22A0928900AE4A9E /* Ending.mp3 */,
+			);
+			path = "Senior Project";
+			sourceTree = "<group>";
+		};
+		27FD5862229DE33B0076F536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27FD5863229DE33B0076F536 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FD5846229DC8160076F536 /* Senior Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FD5859229DC8180076F536 /* Build configuration list for PBXNativeTarget "Senior Project" */;
+			buildPhases = (
+				27FD5843229DC8160076F536 /* Sources */,
+				27FD5844229DC8160076F536 /* Frameworks */,
+				27FD5845229DC8160076F536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Senior Project";
+			productName = "Senior Project";
+			productReference = 27FD5847229DC8160076F536 /* Senior Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FD583F229DC8160076F536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Connor Nelson";
+				TargetAttributes = {
+					27FD5846229DC8160076F536 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 27FD5842229DC8160076F536 /* Build configuration list for PBXProject "Senior Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27FD583E229DC8160076F536;
+			productRefGroup = 27FD5848229DC8160076F536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FD5846229DC8160076F536 /* Senior Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FD5845229DC8160076F536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FD5868229DE4150076F536 /* Creatures.mp3 in Resources */,
+				27FD5866229DE3710076F536 /* Illenium - Beautiful Creatures (feat. MAX).mp3 in Resources */,
+				27FD5855229DC8180076F536 /* LaunchScreen.storyboard in Resources */,
+				27FD5852229DC8180076F536 /* Assets.xcassets in Resources */,
+				279D128C22A07F9400AE4A9E /* Beginning.mp3 in Resources */,
+				279D1288229F042800AE4A9E /* incorrect.mp3 in Resources */,
+				279D1289229F042800AE4A9E /* correct.mp3 in Resources */,
+				279D128E22A0928900AE4A9E /* Ending.mp3 in Resources */,
+				27FD5850229DC8170076F536 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FD5843229DC8160076F536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FD584D229DC8170076F536 /* ViewController.swift in Sources */,
+				27FD585D229DD9AD0076F536 /* TimerViewController.swift in Sources */,
+				27FD584B229DC8170076F536 /* AppDelegate.swift in Sources */,
+				27FD585F229DDD200076F536 /* Timer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27FD584E229DC8170076F536 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FD584F229DC8170076F536 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27FD5853229DC8180076F536 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FD5854229DC8180076F536 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27FD5857229DC8180076F536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27FD5858229DC8180076F536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27FD585A229DC8180076F536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ7ULGYMV5;
+				INFOPLIST_FILE = "Senior Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Conn205.Senior-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27FD585B229DC8180076F536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ7ULGYMV5;
+				INFOPLIST_FILE = "Senior Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Conn205.Senior-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FD5842229DC8160076F536 /* Build configuration list for PBXProject "Senior Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FD5857229DC8180076F536 /* Debug */,
+				27FD5858229DC8180076F536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FD5859229DC8180076F536 /* Build configuration list for PBXNativeTarget "Senior Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FD585A229DC8180076F536 /* Debug */,
+				27FD585B229DC8180076F536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FD583F229DC8160076F536 /* Project object */;
+}
